@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>تواصل معنا - NextLevel Affiliate</title>
+  <meta name="description" content="تواصل معنا لأي سؤال، شراكة، أو طلب مراجعة لمنتج أفلييت.">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container" style="display:flex; flex-wrap:wrap; gap:12px; align-items:center; justify-content: space-between;">
+      <div>
+        <h1 class="site-title">NextLevel Affiliate</h1>
+      </div>
+      <nav aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>تواصل معنا</h2>
+      <p>إذا كان لديك استفسار، شراكة، أو طلب خاص بإضافة منتج للمراجعة، املأ النموذج أدناه.</p>
+      <div style="display:grid; gap:1.5rem; max-width: 900px;">
+        <form id="contactForm" style="display:grid; gap:12px;">
+          <div style="display:flex; gap:12px; flex-wrap:wrap;">
+            <input type="text" name="name" placeholder="الاسم" required style="flex:1; padding:12px; border-radius:8px; border:1px solid #d9e2ec;" />
+            <input type="email" name="email" placeholder="البريد الإلكتروني" required style="flex:1; padding:12px; border-radius:8px; border:1px solid #d9e2ec;" />
+          </div>
+          <input type="text" name="subject" placeholder="الموضوع" required style="padding:12px; border-radius:8px; border:1px solid #d9e2ec;" />
+          <textarea name="message" rows="6" placeholder="رسالتك" required style="padding:12px; border-radius:8px; border:1px solid #d9e2ec;"></textarea>
+          <button type="submit" class="btn" style="width:160px;">أرسل</button>
+        </form>
+
+        <div style="background: var(--clr-card); padding:16px; border-radius:10px; box-shadow: var(--shadow);">
+          <h3>طرق أخرى للتواصل</h3>
+          <p><strong>البريد الإلكتروني:</strong> support@nextlevelaffiliate.com</p>
+          <p><strong>تويتر:</strong> @NextLevelAff</p>
+          <p><strong>واتساب:</strong> +123 456 7890</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <!-- reuse footer -->
+    <div class="footer-inner">
+      <div class="footer-col">
+        <div class="footer-title">NextLevel Affiliate</div>
+        <p>موقع أفلييت يعرض لك أفضل المنتجات مع مراجعات، روابط موثوقة، ومقارنات تساعدك تختار.</p>
+      </div>
+      <div class="footer-col">
+        <div class="footer-title">روابط سريعة</div>
+        <ul style="list-style:none; padding:0; margin:0;">
+          <li><a href="index.html">الرئيسية</a></li>
+          <li><a href="products.html">المنتجات</a></li>
+          <li><a href="reviews.html">المراجعات</a></li>
+          <li><a href="contact.html">تواصل معنا</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <div class="footer-title">تابعنا</div>
+        <div class="socials">
+          <div class="badge">Twitter</div>
+          <div class="badge">YouTube</div>
+          <div class="badge">Instagram</div>
+        </div>
+      </div>
+      <div class="footer-col">
+        <div class="footer-title">اشترك</div>
+        <p>احصل على أفضل العروض مباشرة إلى بريدك.</p>
+        <form>
+          <input type="email" placeholder="بريدك الإلكتروني" aria-label="Email" style="padding:10px; border:none; border-radius:6px; width:100%; margin-bottom:8px;" />
+          <button type="submit" class="btn" style="width:100%;">اشتراك</button>
+        </form>
+      </div>
+    </div>
+    <div style="text-align:center; margin-top:1rem;">
+      <div class="small">&copy; 2025 NextLevel Affiliate. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
