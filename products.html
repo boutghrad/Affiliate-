@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>المنتجات - NextLevel Affiliate</title>
+  <meta name="description" content="تصفح مجموعة المنتجات الموصى بها عبر روابط أفلييت. مقارنة، تصنيفات، وصف مفصل لكل منتج.">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container" style="display:flex; flex-wrap:wrap; gap:12px; align-items:center; justify-content: space-between;">
+      <div>
+        <h1 class="site-title">NextLevel Affiliate</h1>
+      </div>
+      <nav aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="products.html" class="active">Products</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>كل المنتجات</h2>
+      <p>جميع العروض المختارة مع تفاصيل، تقييمات سريعة، وروابط شراء موثوقة.</p>
+
+      <div class="products-grid">
+        <!-- Loopable product items -->
+        <div class="card">
+          <img src="https://via.placeholder.com/400x300?text=Product+3" alt="Product 3" />
+          <div class="card-content">
+            <span class="tag">جديد</span>
+            <h3 class="product-title">أداة تحليل البيانات</h3>
+            <p class="product-desc">ساعد عملائك على اتخاذ قرارات مبنية على بيانات دقيقة وسهلة القراءة.</p>
+            <div class="price">$59.99</div>
+            <div class="cta">
+              <a href="product-detail.html?prod=3" class="btn" target="_blank">عرض التفاصيل</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://via.placeholder.com/400x300?text=Product+4" alt="Product 4" />
+          <div class="card-content">
+            <span class="tag">مفضل</span>
+            <h3 class="product-title">دورة تدريبية شاملة</h3>
+            <p class="product-desc">تعلم المهارات الرقمية من الصفر حتى الاحتراف مع توصيات عالية التحويل.</p>
+            <div class="price">$89.99</div>
+            <div class="cta">
+              <a href="product-detail.html?prod=4" class="btn" target="_blank">عرض التفاصيل</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="margin-top:1.5rem;">
+        <a href="reviews.html" class="btn">اقرأ المراجعات</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <!-- reuse same footer as index.html -->
+    <div class="footer-inner">
+      <div class="footer-col">
+        <div class="footer-title">NextLevel Affiliate</div>
+        <p>موقع أفلييت يعرض لك أفضل المنتجات مع مراجعات، روابط موثوقة، ومقارنات تساعدك تختار.</p>
+      </div>
+      <div class="footer-col">
+        <div class="footer-title">روابط سريعة</div>
+        <ul style="list-style:none; padding:0; margin:0;">
+          <li><a href="index.html">الرئيسية</a></li>
+          <li><a href="products.html">المنتجات</a></li>
+          <li><a href="reviews.html">المراجعات</a></li>
+          <li><a href="contact.html">تواصل معنا</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <div class="footer-title">تابعنا</div>
+        <div class="socials">
+          <div class="badge">Twitter</div>
+          <div class="badge">YouTube</div>
+          <div class="badge">Instagram</div>
+        </div>
+      </div>
+      <div class="footer-col">
+        <div class="footer-title">اشترك</div>
+        <p>احصل على أفضل العروض مباشرة إلى بريدك.</p>
+        <form>
+          <input type="email" placeholder="بريدك الإلكتروني" aria-label="Email" style="padding:10px; border:none; border-radius:6px; width:100%; margin-bottom:8px;" />
+          <button type="submit" class="btn" style="width:100%;">اشتراك</button>
+        </form>
+      </div>
+    </div>
+    <div style="text-align:center; margin-top:1rem;">
+      <div class="small">&copy; 2025 NextLevel Affiliate. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
